@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#11000000"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:id="@+id/btn_dsahboard_shinemission"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_bg">
+
+
+        <RelativeLayout
+            android:background="@drawable/clickpress"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/clickheere"
+                android:textColor="@android:color/white"
+                android:text="Click here"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:padding="10dp"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/splash"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <ImageView
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/splash"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_below="@+id/clickheere"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:id="@+id/tv_hederfirst"
+                android:text="SHINEMISSION99"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+<!--
+    <Button
+        android:id="@+id/btn_dsahboard_shinemission"
+        android:layout_margin="10dp"
+        android:gravity="bottom"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shinemission99"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />-->
+
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="4dp"
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:textSize="24sp"
+                android:id="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:padding="20dp"
+                android:orientation="horizontal"
+                android:elevation="4dp"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/user_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/dashboard_username"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="User Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/dashboard_userid"
+                        android:text="userid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="PAN NO."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/dasboard_panno"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="right"
+                            android:text="pan no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#11000000"/>
+
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Mobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/dasboard_mobile"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="right"
+                            android:text="mobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#11000000"/>
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                       <TextView
+                            android:text="Email-ID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />-->
+                        <TextView
+                            android:id="@+id/dasboard_email"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="right"
+                            android:text="userid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                            </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#11000000"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="All Booking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_marginBottom="20dp"
+        android:divider="#435966"
+        android:dividerHeight="1px"
+        android:background="@drawable/doubleline_border"
+        android:layout_marginTop="5dp"
+        android:id="@+id/gallarty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
+
+</ScrollView>

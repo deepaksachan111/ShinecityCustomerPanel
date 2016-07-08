@@ -1,0 +1,329 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/white"
+android:orientation="vertical"
+
+tools:context="com.shinecity.lko.customerpanal.Fragment.BookingFragment">
+
+<RelativeLayout
+
+    android:elevation="4dp"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+
+        android:id="@+id/linearview_booking_webview"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_bg">
+
+
+        <RelativeLayout
+            android:background="@drawable/clickpress"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/clickheere"
+                android:textColor="@android:color/white"
+                android:text="Click here"
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+           <ImageView
+               android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/splash"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+            <ImageView
+              android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/splash"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        <TextView
+           android:layout_below="@+id/clickheere"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:id="@+id/tv_hederfirst"
+            android:text="SHINEMISSION99"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
+<!--    <Button
+        android:id="@+id/btn_booking_webviewmission"
+        android:gravity="bottom"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shinemission99"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />-->
+    <LinearLayout
+        android:layout_below="@+id/linearview_booking_webview"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!--first colum   all booking...............................................-->
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/tran_blue"
+                android:id="@+id/linear_allbooking"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/clickpress"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/allbooking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txt_allbooking"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:text="All Booking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+</LinearLayout>
+            </LinearLayout>
+
+            <!--second colum   Emi Payments...............................................-->
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/transbggreen"
+               android:id="@+id/linear_emipayments"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/clickpress"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/emipayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txt_emipayment"
+                    android:layout_gravity="center"
+                    android:text="EMI Payments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--  second row ........................................-->
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!--first colum   Coupan Details...............................................-->
+            <LinearLayout
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/trans_red"
+                android:id="@+id/linear_cupondetails"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/clickpress"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/coupandetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txt_coupandetail"
+                    android:layout_gravity="center"
+                    android:text="Coupon Details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+</LinearLayout>
+            </LinearLayout>
+
+            <!--second colum  Reguest Registry...............................................-->
+
+            <LinearLayout
+                android:id="@+id/linear_request_registry"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/transbgblue"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/clickpress"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/reguest_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txt_request_registry"
+                    android:layout_gravity="center"
+                    android:text="Request Registry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--  Third row ........................................-->
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <!--first colum  Registry Request Report...............................................-->
+            <LinearLayout
+                android:id="@+id/linear_registr_request"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="2dp"
+                android:background="@drawable/trans_orange"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/clickpress"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/register_request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txt_register_report"
+                    android:layout_gravity="center"
+                    android:text="Registry Request Report"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+            </LinearLayout>
+
+            <!--second colum  ..............................................-->
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+               <!-- <ImageView
+                     android:layout_gravity="center"
+                     android:src="@mipmap/view_enquiry"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+                 <TextView
+                     android:layout_gravity="center"
+                     android:text="View Enquiry"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+</LinearLayout>

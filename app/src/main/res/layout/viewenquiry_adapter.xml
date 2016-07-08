@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<!--    <TextView
+        android:textSize="20dp"
+        android:textColor="#208BBD"
+          android:gravity="center"
+        android:text="View Detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#993300"
+            android:text="Enquiry Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/view_enquiry_enquirydate"
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:textSize="16dp"
+            android:textColor="#208BBD"
+            android:text="Enquiry Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#993300"
+            android:text="Query Status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/view_enquiry_qstatus"
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:textSize="16dp"
+            android:textColor="#208BBD"
+            android:text="Query Status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#800000"
+            android:text="Enquiry "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/view_enquiry_enquiry"
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:textSize="16dp"
+            android:textColor="#208BBD"
+            android:text="Enquiry "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:textColor="#800000"
+            android:text="Replied on"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/view_enquiry_repliedon"
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:textSize="16dp"
+            android:textColor="#208BBD"
+            android:text="Replied on"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

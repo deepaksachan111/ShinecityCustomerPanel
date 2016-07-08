@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shinecity.lko.customerpanal.ContactUsAcivity">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+               android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#375E7E"
+            android:orientation="vertical">
+
+            <TextView
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Contact Us"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/orange">
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp "
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="18dp "
+                    android:layout_gravity="center"
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Contact Informations"
+                    android:textSize="22dp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/orange" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/flexible.example.cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPaddingBottom="16dp"
+            app:contentPaddingLeft="16dp"
+            app:contentPaddingRight="16dp"
+            app:cardCornerRadius="4dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="4dp"
+            android:layout_margin="8dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="HEAD OFFICE"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1/5, Fourth Floor, R-Square Complex,Vipul Khand, Gomtinagar,Lucknow - 226010" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="CORPORATE  OFFICE"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:padding="3dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A 105 South city,PGI Road, Near Shaheed Path,Lucknow"/>
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/orange">
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="20dp "
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="18dp "
+                    android:layout_gravity="center"
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Locate Us On Map"
+                    android:textSize="22dp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/orange" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_view_lagegermap"
+            android:text="View Lager Map"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="600dp"/>
+        <Button
+            android:id="@+id/btn_googlemap"
+            android:text="Viewby  Google Map"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

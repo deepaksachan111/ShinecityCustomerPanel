@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lko.qserver.shinecitycp.Fragment.LoginFragment">
+
+
+    <ScrollView
+
+        android:isScrollContainer="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <LinearLayout
+           android:layout_margin="5dp"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/splash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="SIGN IN"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+
+                android:id="@+id/edt_loginid"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:ems="10"
+                android:background="@drawable/edt_login_bg"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:typeface="normal"
+                android:hint="LOGIN ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+
+                android:id="@+id/edt_loginpassword"
+                android:password="true"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:ems="10"
+                android:background="@drawable/edt_login_bg"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:typeface="normal"
+                android:hint="PASSWORD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/chk_remberme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="#71B6F9"
+                    android:gravity="center"
+                    android:typeface="normal"
+                    android:hint="Remember Me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_login"
+                android:textColor="#fff"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_bg"
+                android:text="Login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+    </LinearLayout>

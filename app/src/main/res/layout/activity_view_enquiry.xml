@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shinecity.lko.customerpanal.ViewEnquiryActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_actionbar"
+        android:background="@color/lite_dark_blue"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+
+        android:typeface ="monospace"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:text="Customer Panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/lite_dark_blue"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="View Enquiry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#435966"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/lite_dark_blue"
+        android:text="Status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/edt_enquiry_status"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sppiner_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+        </Spinner>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/lite_dark_blue"
+            android:text="Enquiry From"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:clickable="true"
+            android:padding="5dp"
+            android:drawableRight="@android:drawable/ic_menu_my_calendar"
+            android:id="@+id/edt_enquiry_fromedate"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sppiner_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+        </EditText>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/lite_dark_blue"
+            android:text="Enquiry To"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:focusableInTouchMode="false"
+            android:drawableRight="@android:drawable/ic_menu_my_calendar"
+            android:padding="5dp"
+            android:id="@+id/edt_enquiry_fromto"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/sppiner_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_viewinquiry_submit"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="30dp"
+            android:text="Submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_viewinquiry_norecord"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/translucent_red"
+        android:textSize="24dp"
+        android:text="No Rcord Found"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:dividerHeight="2dp"
+        android:divider="#000"
+        android:id="@+id/listview_viewenquiry"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

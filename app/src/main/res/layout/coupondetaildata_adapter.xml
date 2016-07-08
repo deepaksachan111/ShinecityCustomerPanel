@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:id="@+id/li"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+   <LinearLayout
+
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent">
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+       <TextView
+
+           android:layout_weight="1"
+           android:layout_marginLeft="10dp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           android:text="S.No"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+
+           <TextView
+               android:layout_weight="2"
+               android:layout_marginLeft="10dp"
+               android:id="@+id/cd_sn"
+               android:text="S.No"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textColor="#000"
+               android:text="Coupon No."
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       <TextView
+           android:layout_weight="2"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/cd_coupandetail"
+           android:text="Coupon No."
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+
+           </LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textColor="#000"
+               android:text="PlotNo/Site"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       <TextView
+           android:layout_weight="2"
+           android:layout_marginLeft="10dp"
+
+           android:id="@+id/cd_plotno"
+           android:text="PlotNo/Site"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+           </LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textColor="#000"
+               android:text="CustomerName"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       <TextView
+           android:layout_weight="2"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/cd_customercode"
+           android:text="CustomerName"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+</LinearLayout>
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textColor="#000"
+               android:text="Used On"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       <TextView
+           android:layout_weight="2"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/cd_usedon"
+           android:text="Used On"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+</LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textColor="#000"
+               android:text="Used Date"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       <TextView
+           android:layout_weight="2"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/cd_useddate"
+           android:text="Used Date"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+</LinearLayout>
+   </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shinecity.lko.customerpanal.Fragment.CoupanDetailDataFragment">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:id="@+id/linear_actionbar_coupobdetaiback"
+                android:background="@color/lite_dark_blue"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:id="@+id/coupon_detail_back"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:typeface ="monospace"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:text="Customer Panel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:textColor="@color/lite_dark_blue"
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Coupon Details"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#435966"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"/>
+
+
+    <ListView
+        android:layout_margin="5dp"
+        android:divider="#2D2E2F"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/listview_coupandetail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </ListView>
+       </LinearLayout>
+
+
+</FrameLayout>

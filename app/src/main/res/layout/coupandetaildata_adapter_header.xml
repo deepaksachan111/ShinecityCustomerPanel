@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="10dp"
+            android:background="#000"
+            android:orientation="vertical"
+            android:id="@+id/li"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                 android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight=".2"
+                    android:textSize="20dp"
+                    android:id="@+id/cd_sn"
+                    android:text="S.No"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight=".4"
+                    android:textSize="20dp"
+                    android:id="@+id/cd_coupandetail"
+                    android:text="Coupon Detail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight=".4"
+                    android:textSize="20dp"
+                    android:id="@+id/cd_plotno"
+                    android:text="PlotNo/Site"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight=".4"
+                    android:textSize="20dp"
+                    android:id="@+id/cd_customercode"
+                    android:text="CustomerName/Code"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight=".4"
+                    android:textSize="20dp"
+                    android:id="@+id/cd_usedon"
+                    android:text="Used On"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_weight=".4"
+                    android:textSize="20dp"
+                    android:id="@+id/cd_useddate"
+                    android:text="Used Date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+   <!-- <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="24dp"
+        android:text="six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+-->
+</LinearLayout>

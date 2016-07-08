@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="13dp"
+    tools:context="com.lko.shinecity.customerpanel.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linear"
+        android:background="#33b5e5"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:padding="10dp"
+            android:src="@mipmap/splash"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Customer Panel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_margin="10dp"
+        android:layout_below="@+id/linear"
+        android:layout_centerInParent="true"
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linear_nointernet"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:background="@drawable/no_internet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

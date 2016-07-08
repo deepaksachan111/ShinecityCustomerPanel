@@ -1,0 +1,459 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shinecity.lko.customerpanal.EMIPaymentRecord">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_actionbar_coupobdetaiback"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@color/lite_dark_blue"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/coupon_detail_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@mipmap/home" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Customer Panel"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Holder ID" />
+
+                    <TextView
+                       android:textColor="#178080"
+                        android:id="@+id/emi_plotholder_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Holder ID" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Member ID" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_memberid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Member ID" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Status" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_plotstatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Status" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Installment Type" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_installmettype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Installment Type" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Amount" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_plotamount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Amount" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Product" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_product"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Product" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Size" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_plotsize"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Plot Size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Installment Amount" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_installmentamount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Installment Amount" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No of Installment" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_no_of_installment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No of Installmet" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Booking Date" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_bookingdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Booking Date" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Allotment Date" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_allotmentdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Allotment Date" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Paid Amount" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_totalpaidamount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Paid Amount" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_border"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#435966"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Phase" />
+
+                    <TextView
+                        android:textColor="#178080"
+                        android:id="@+id/emi_paymentphase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment Phase" />
+                </LinearLayout>
+
+            </LinearLayout>
+<!--
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+                <Button
+                    android:layout_gravity="center"
+                    android:text="Column 1" />
+
+                <TableLayout>
+                    <TableRow>
+                        <Button
+                            android:layout_gravity="center"
+                            android:text="Column 2" />
+
+                    </TableRow>
+                    <TableRow>
+                        <Button
+                            android:layout_gravity="center"
+                            android:text="Column 2" />
+
+
+                    </TableRow>
+                </TableLayout>
+            </TableRow>-->
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+
+</ScrollView>
